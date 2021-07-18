@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import CardSection from './Modules/CardSection'
-import FeaSection from './Modules/FeaSection'
-import Text from './Modules/Text'
-import NavBar from './Modules/NavBar'
-import FooterSection from './Modules/FooterSection'
+import CardSection from './CardSection'
+import FeaSection from './FeaSection'
+import Text from './Text'
+import NavBar from './NavBar'
+import FooterSection from './FooterSection'
 
 
 
