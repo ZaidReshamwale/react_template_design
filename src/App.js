@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import CardSection from './Modules/CardSection'
+import FeaSection from './Modules/FeaSection'
+import Text from './Modules/Text'
+import NavBar from './Modules/NavBar'
+import FooterSection from './Modules/FooterSection'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <NavBar />
+        <FeaSection />
+        <Text />
+        <CardSection />
+        <FooterSection />
+   </div>
   );
 }
 
 export default App;
+
